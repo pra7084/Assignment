@@ -1,6 +1,7 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  width: 12rem;
   padding: 10px;
   background-color: #f4f4f4;
   border-bottom: 1px solid #ddd;
@@ -9,4 +10,16 @@
 .header select {
   padding: 5px;
   font-size: 16px;
+}
+
+.grouping {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.sorting {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
 }

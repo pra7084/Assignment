@@ -1,0 +1,74 @@
+.kanban-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-id {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+}
+
+.status-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.ticket-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
+
+.card-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.priority-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+}
+
+.tag {
+  background: #eee;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.user-avatar {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.user-name {
+  font-size: 14px;
+  color: #555;
+}
